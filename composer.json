@@ -1,0 +1,32 @@
+{
+  "name": "phpbsb/php-short-array-syntax-converter",
+  "description": "Command-line script to convert or revert PHP's array() syntax to PHP 5.4's short array syntax [] using PHP's built-in tokenizer.",
+  "type": "library",
+  "homepage": "https://github.com/phpbsb/php-short-array-syntax-converter",
+  "keywords": [
+    "short",
+    "array",
+    "converter",
+    "php"
+  ],
+  "authors": [
+    {
+      "name": "Thomas Bachem",
+      "email": "mail@thomasbachem.com",
+      "homepage": "http://thomasbachem.com"
+    },
+    {
+      "name": "Vinicius Fagundes",
+      "email": "eu@viniciusfagundes.com",
+      "homepage": "http://www.viniciusfagundes.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3"
+  },
+  "bin": [
+    "bin/array-convert",
+    "bin/array-revert"
+  ]
+}
